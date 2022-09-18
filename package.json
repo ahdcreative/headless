@@ -1,0 +1,32 @@
+{
+  "name": "headless",
+  "version": "1.0.0",
+  "private": true,
+  "license": "ISC",
+  "devDependencies": {
+    "@types/humps": "^2.0.2",
+    "@types/node": "^16.11.59",
+    "@types/react": "^18.0.20",
+    "@ahdcreative/eslint-config-ahd": "^1.0.10",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-next": "^12.3.0",
+    "@ahdcreative/prettier-config-ahd": "^1.0.6",
+    "@ahdcreative/stylelint-config-ahd": "^1.0.3",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "humps": "^2.0.1",
+    "next": "^12.3.0",
+    "next-themes": "^0.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.54.9"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "format": "prettier --write '**/?(.)*.{md,css,scss,js,ts,tsx,json,yaml,yml}'",
+    "lint": "next lint && prettier --check '**/?(.)*.{md,css,scss,js,ts,tsx,json,yaml,yml}'"
+  }
+}
